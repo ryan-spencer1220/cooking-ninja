@@ -11,7 +11,7 @@ export default function Searchbar() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    navigate.push(`/search?q=${term}`);
+    navigate(`/search?q=${term}`);
   };
 
   return (
